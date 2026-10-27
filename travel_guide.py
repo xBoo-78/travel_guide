@@ -26,6 +26,9 @@ except ImportError:
     requests = None
 
 import flet as ft
+from dotenv import load_dotenv
+
+load_dotenv()  # 本机运行时把 .env 里的 AMAP_KEY 读进环境变量；没有 .env 则不影响
 
 # 以脚本所在目录为基准，guides / usage.json 都放在这里，避免依赖“在哪运行”
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
