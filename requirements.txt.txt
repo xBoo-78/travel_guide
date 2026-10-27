@@ -1,0 +1,4 @@
+flet
+requests
+pillow
+python-dotenv

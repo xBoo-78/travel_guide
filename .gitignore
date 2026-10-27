@@ -1,0 +1,13 @@
+# 密钥：绝不入库
+.env
+
+# 运行时生成的产物
+guides/
+usage.json
+city_bg/
+
+# Python 杂项
+__pycache__/
+*.pyc
+.venv/
+venv/
